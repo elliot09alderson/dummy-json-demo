@@ -1,0 +1,60 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+
+.loader{
+  height: 100vh;
+  width:98vw;
+  background: whitesmoke;
+
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.flex-row div{
+  background-color: darkslategray ;
+  padding:10px 20px;
+  cursor: pointer;
+}
+
+.flex-center{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-group{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 60px;
+  gap:20px ;
+  flex-wrap: wrap;
+
+}
+.card{
+display: flex;
+gap: 20px;
+flex-direction: column;
+
+  width: 200px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 14px;
+  background-color: cadetblue;
+  color: black;
+}
+
+.heading{
+  font-size: 24px;
+}
