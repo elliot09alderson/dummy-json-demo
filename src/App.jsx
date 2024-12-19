@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Main from "./Main";
+import Feature from "./Feature";
 const App = () => {
   return (
     <div>
-      <Main />
+      <Feature />
     </div>
   );
 };
